@@ -1,0 +1,17 @@
+PraPaitoon Rowdchana name: CI
+
+on: [push]ThanaKaro-Phikku-Label
+
+jobs:Monk
+  build:Mahayana Buddhist Temple
+
+    runs-on: ubuntu-latest
+
+    steps:2
+    - uses: actions/checkout@v1
+    - name: Run a one-line script
+      run: echo Hello, world!
+    - name: Run a multi-line script
+      run: |tes
+        echo Add other actions to build,
+        echo test, and deploy your project.
